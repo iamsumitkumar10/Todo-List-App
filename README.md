@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 
 
-            App
+            App (component app.js check)
    1 header      2 Todo
 
                 1 form   2 TodoList      
