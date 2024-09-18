@@ -6,6 +6,7 @@ export default function TodoList({ todos }) {
     <div className={styles.list}>
       {todos.map((item) => (
         <TodoItem key={item} item={item} />
+      // adding delete funcationality
       ))}
     </div>
   );
