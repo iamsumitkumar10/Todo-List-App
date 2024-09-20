@@ -7,7 +7,7 @@ const TodoList = () => {
     { id: 2, task: 'Build a Todo App' },
     { id: 3, task: 'Master JavaScript' },
   ]);
-
+  // compare the results
   const deleteTodo = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
